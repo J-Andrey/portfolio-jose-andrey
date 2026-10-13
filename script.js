@@ -154,6 +154,12 @@
 
     if (projectGrid && filterButtons.length) {
         filterButtons.forEach(button => {
+            const badge = button.querySelector('span');
+            const category = button.dataset.filter;
+            const count = category === 'all'
+                ? projectCards.length
+                : projectCards.filter(card => card.dataset.category === category).length;
+            if (badge) badge.textContent = String(count).padStart(2, '0');
             button.addEventListener('click', () => filterProjects(button.dataset.filter));
         });
         filterProjects('all', false);

@@ -22,6 +22,6 @@ Abra `index.html` no navegador. Para desenvolvimento, também é possível abrir
 - `script.js`: menu, filtros, navegação, animações e cópia do e-mail.
 - `images/`: foto de perfil e favicon.
 
-As capas dos projetos são composições ilustrativas em HTML e CSS, não capturas dos sites. Os nomes dos projetos foram mantidos do portfólio original. O link geral de repositórios leva ao GitHub; links individuais podem ser adicionados quando suas URLs estiverem confirmadas.
+As capas dos projetos são composições ilustrativas em HTML e CSS, não capturas dos sites. A coleção reúne 13 projetos: 7 websites e 6 aplicações. Oito deles têm o botão “Abrir projeto” com os endereços publicados no GitHub Pages. Os links de código levam aos repositórios no GitHub. Todos esses links abrem em nova aba. Os contadores dos filtros são calculados a partir dos projetos presentes na página.
 
 As fontes são carregadas pelo Google Fonts, com fontes locais alternativas. A cópia de e-mail depende da permissão do navegador; o endereço e o link para enviar e-mail ficam sempre disponíveis.
