@@ -17,7 +17,7 @@ Abra `index.html` no navegador ou utilize a extensão Live Server do VS Code.
 
 ## Projetos
 
-Os 13 projetos do site anterior foram preservados, incluindo todos os links existentes. O portfólio mostra três projetos em destaque; use **Ver todos os 13 projetos** para visualizar e filtrar os demais. Projetos sem URL publicada no arquivo original permanecem sem um link fictício.
+O card Pet Care foi substituído por Clínica Lumina, projeto demonstrativo de landing page para uma clínica de saúde integrada. A página publicada e o repositório GitHub de Clínica Lumina foram vinculados ao card. Os demais 12 projetos e os links existentes foram preservados. O portfólio mostra três projetos em destaque; use **Ver todos os 13 projetos** para visualizar e filtrar os demais. Projetos sem URL publicada no arquivo original permanecem sem um link fictício.
 
 ## Contato
 
