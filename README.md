@@ -1,27 +1,34 @@
 # Portfólio — José Andrey
 
-Portfólio pessoal de desenvolvimento Web Full Stack, feito com HTML, CSS e JavaScript, sem dependências de instalação ou etapa de build.
+Portfólio pessoal com layout minimalista escuro e detalhes em laranja, usando **HTML, CSS e JavaScript** (sem etapa de build ou dependências npm).
 
-## Como visualizar
+## Abrir no computador
 
-Abra `index.html` no navegador. Para desenvolvimento, também é possível abrir a pasta no VS Code e usar a extensão Live Server.
+Abra `index.html` no navegador ou utilize a extensão Live Server do VS Code.
 
-## Recursos
+## Estrutura
 
-- Layout responsivo com identidade escura e detalhes em azul.
-- Projetos organizados por websites e aplicações, com filtros.
-- Menu mobile com suporte a teclado e indicação da seção atual.
-- Links de contato e botão para copiar o e-mail.
-- Animações discretas que respeitam a preferência por movimento reduzido.
-- Conteúdo e navegação disponíveis mesmo sem JavaScript.
+- `index.html`: seções do portfólio, conteúdo e links.
+- `style.css`: aparência e responsividade.
+- `script.js`: menu para celular, navegação, filtros e formulário.
+- `images/jose.jpg`: fotografia enviada para a seção Sobre.
 
-## Organização
+**Sem favicon:** o HTML não inclui nenhuma referência ou arquivo de favicon.
 
-- `index.html`: conteúdo, seções e links.
-- `style.css`: estilos, capas ilustrativas dos projetos e tamanhos de tela.
-- `script.js`: menu, filtros, navegação, animações e cópia do e-mail.
-- `images/`: foto de perfil e favicon.
+## Projetos
 
-As capas dos projetos são composições ilustrativas em HTML e CSS, não capturas dos sites. A coleção reúne 13 projetos: 7 websites e 6 aplicações. Oito deles têm o botão “Abrir projeto” com os endereços publicados no GitHub Pages. Os links de código levam aos repositórios no GitHub. Todos esses links abrem em nova aba. Os contadores dos filtros são calculados a partir dos projetos presentes na página.
+Os 13 projetos do site anterior foram preservados, incluindo todos os links existentes. O portfólio mostra três projetos em destaque; use **Ver todos os 13 projetos** para visualizar e filtrar os demais. Projetos sem URL publicada no arquivo original permanecem sem um link fictício.
 
-As fontes são carregadas pelo Google Fonts, com fontes locais alternativas. A cópia de e-mail depende da permissão do navegador; o endereço e o link para enviar e-mail ficam sempre disponíveis.
+## Contato
+
+Os contatos originais foram mantidos: `andrey_lisboa11@outlook.com`, GitHub `J-Andrey` e Instagram `j.andrey94`.
+
+Este é um site estático, **sem servidor de e-mail ou back-end**. O botão **Preparar e-mail** apenas abre o aplicativo de e-mail configurado no dispositivo, com os dados preenchidos; ele **não envia mensagens automaticamente**. O botão principal **Solicite seu orçamento** abre um novo e-mail com o assunto de orçamento. Se o dispositivo não tiver um aplicativo associado aos links `mailto:`, use o endereço de e-mail exibido na página.
+
+## Publicação
+
+Publique `index.html`, `style.css`, `script.js` e a pasta `images/` no mesmo diretório, mantendo esses nomes e caminhos. O resultado pode ser hospedado no GitHub Pages.
+
+## Verificações recomendadas
+
+Teste as versões desktop e celular, a expansão/filtro de projetos, os links, o menu mobile e a abertura de e-mail em um dispositivo com aplicativo de correio configurado.
